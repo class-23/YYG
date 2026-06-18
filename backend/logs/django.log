@@ -1,0 +1,70 @@
+WARNING 2026-06-18 19:15:49,552 log 19068 12504 Not Found: /
+WARNING 2026-06-18 19:15:49,554 log 19068 12504 "GET / HTTP/1.1" 404 2316
+INFO 2026-06-18 19:15:49,609 middleware 19068 3156 GET /v1/users/me/ 200 user=None device=- 0.4ms
+INFO 2026-06-18 19:15:49,611 log 19068 3156 "GET /v1/users/me/ HTTP/1.1" 200 62
+INFO 2026-06-18 19:15:49,687 middleware 19068 3528 POST /v1/auth/wx-login/ 404 user=None device=- 6.0ms
+WARNING 2026-06-18 19:15:49,689 log 19068 3528 Not Found: /v1/auth/wx-login/
+WARNING 2026-06-18 19:15:49,690 log 19068 3528 "POST /v1/auth/wx-login/ HTTP/1.1" 404 6634
+INFO 2026-06-18 19:15:49,756 log 19068 2760 "OPTIONS /v1/users/me/ HTTP/1.1" 200 0
+INFO 2026-06-18 19:15:49,904 middleware 19068 2836 GET /v1/users/me/ 200 user=None device=- 0.3ms
+INFO 2026-06-18 19:15:49,906 log 19068 2836 "GET /v1/users/me/ HTTP/1.1" 200 62
+INFO 2026-06-18 19:15:49,964 middleware 19068 3680 POST /v1/auth/wx-login/ 404 user=None device=- 3.4ms
+WARNING 2026-06-18 19:15:49,964 log 19068 3680 Not Found: /v1/auth/wx-login/
+WARNING 2026-06-18 19:15:49,965 log 19068 3680 "POST /v1/auth/wx-login/ HTTP/1.1" 404 6634
+INFO 2026-06-18 19:31:10,064 basehttp 114 132974167193152 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4349
+INFO 2026-06-18 19:31:10,133 basehttp 114 132974167193152 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-06-18 19:31:10,134 basehttp 114 132974143067712 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-06-18 19:31:10,134 basehttp 114 132974158800448 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-06-18 19:31:10,140 basehttp 114 132974167193152 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-06-18 19:31:10,144 basehttp 114 132974143067712 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-06-18 19:31:10,146 basehttp 114 132974158800448 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2026-06-18 19:31:10,190 basehttp 114 132974167193152 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2026-06-18 19:31:10,210 log 114 132974143067712 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-06-18 19:31:10,212 basehttp 114 132974143067712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2478
+INFO 2026-06-18 19:31:13,956 basehttp 114 132974143067712 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4349
+INFO 2026-06-18 19:31:14,015 basehttp 114 132974167193152 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-06-18 19:31:14,017 basehttp 114 132973917627968 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-06-18 19:31:14,017 basehttp 114 132973926020672 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-06-18 19:31:14,018 basehttp 114 132974143067712 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-06-18 19:31:14,019 basehttp 114 132973909235264 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2026-06-18 19:31:14,019 basehttp 114 132974158800448 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-06-18 19:31:14,036 basehttp 114 132973909235264 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2026-06-18 19:31:14,061 log 114 132974158800448 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-06-18 19:31:14,067 basehttp 114 132974158800448 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2478
+INFO 2026-06-18 19:31:18,982 basehttp 114 132974158800448 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4349
+INFO 2026-06-18 19:31:19,036 basehttp 114 132973909235264 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-06-18 19:31:19,043 basehttp 114 132973926020672 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-06-18 19:31:19,056 basehttp 114 132974167193152 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+WARNING 2026-06-18 19:31:19,057 log 114 132973909235264 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2026-06-18 19:31:19,058 basehttp 114 132974158800448 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-06-18 19:31:19,060 basehttp 114 132973917627968 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-06-18 19:31:19,064 basehttp 114 132974143067712 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+WARNING 2026-06-18 19:31:19,076 basehttp 114 132973909235264 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2478
+INFO 2026-06-18 19:31:19,088 basehttp 114 132974143067712 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-06-18 19:31:23,352 basehttp 114 132974143067712 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4349
+INFO 2026-06-18 19:31:23,417 basehttp 114 132974158800448 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-06-18 19:31:23,419 basehttp 114 132973917627968 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-06-18 19:31:23,419 basehttp 114 132973909235264 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-06-18 19:31:23,420 basehttp 114 132974143067712 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-06-18 19:31:23,420 basehttp 114 132974167193152 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-06-18 19:31:23,421 basehttp 114 132973926020672 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+WARNING 2026-06-18 19:31:23,431 log 114 132974158800448 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+INFO 2026-06-18 19:31:23,450 basehttp 114 132973926020672 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2026-06-18 19:31:23,452 basehttp 114 132974158800448 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2478
+INFO 2026-06-18 19:31:31,068 basehttp 114 132974158800448 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4349
+INFO 2026-06-18 19:31:31,124 basehttp 114 132973926020672 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-06-18 19:31:31,126 basehttp 114 132974158800448 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-06-18 19:31:31,127 basehttp 114 132973917627968 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-06-18 19:31:31,128 basehttp 114 132974143067712 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-06-18 19:31:31,128 basehttp 114 132974167193152 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-06-18 19:31:31,129 basehttp 114 132973909235264 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2026-06-18 19:31:31,144 basehttp 114 132973909235264 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2026-06-18 19:31:31,161 log 114 132974167193152 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-06-18 19:31:31,163 basehttp 114 132974167193152 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2478
+INFO 2026-06-18 19:37:20,797 basehttp 114 132974167193152 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4189
+INFO 2026-06-18 19:37:22,970 basehttp 114 132974167193152 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4189
+INFO 2026-06-18 19:37:23,881 basehttp 114 132974167193152 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4189
+INFO 2026-06-18 19:37:24,440 basehttp 114 132974167193152 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4189
+INFO 2026-06-18 19:37:24,818 basehttp 114 132974167193152 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4189
+INFO 2026-06-18 19:37:25,252 basehttp 114 132974167193152 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4189
+INFO 2026-06-18 19:37:43,708 basehttp 114 132974167193152 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4349

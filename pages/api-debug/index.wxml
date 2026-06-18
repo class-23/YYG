@@ -1,0 +1,38 @@
+<view class="container">
+  <view class="card">
+    <view class="title">前后端连通验证</view>
+    <view class="kv">
+      <text class="k">后端地址：</text>
+      <text class="v">{{baseURL}}</text>
+    </view>
+    <view class="kv">
+      <text class="k">设备 ID：</text>
+      <text class="v device-id" bindtap="copyDeviceId">{{deviceId}}</text>
+    </view>
+    <view class="kv">
+      <text class="k">API 状态：</text>
+      <text class="v {{apiReady ? 'ok' : 'err'}}">{{apiReady ? '✓ 已就绪' : '✗ 未就绪'}}</text>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="title">测试接口</view>
+    <view class="btn-group">
+      <button type="primary" loading="{{loading}}" bindtap="callMe">测试 GET /v1/users/me/</button>
+      <button loading="{{loading}}" bindtap="callStats">测试 GET /v1/users/me/stats/</button>
+      <button loading="{{loading}}" bindtap="testCORS">测试 CORS 预检</button>
+      <button type="warn" bindtap="clearLog">清空日志</button>
+    </view>
+  </view>
+
+  <view class="card" wx:if="{{responseText}}">
+    <view class="title">最近响应</view>
+    <view class="code">{{responseText}}</view>
+  </view>
+
+  <view class="card">
+    <view class="title">日志</view>
+    <view class="log" wx:for="{{log}}" wx:key="*this">{{item}}</view>
+    <view class="log empty" wx:if="{{log.length === 0}}">点击上方按钮测试接口...</view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+WARNING 2026-06-18 19:15:49,552 Not Found: /
+WARNING 2026-06-18 19:15:49,554 "GET / HTTP/1.1" 404 2316
+INFO 2026-06-18 19:15:49,609 GET /v1/users/me/ 200 user=None device=- 0.4ms
+INFO 2026-06-18 19:15:49,611 "GET /v1/users/me/ HTTP/1.1" 200 62
+INFO 2026-06-18 19:15:49,687 POST /v1/auth/wx-login/ 404 user=None device=- 6.0ms
+WARNING 2026-06-18 19:15:49,689 Not Found: /v1/auth/wx-login/
+WARNING 2026-06-18 19:15:49,690 "POST /v1/auth/wx-login/ HTTP/1.1" 404 6634
+INFO 2026-06-18 19:15:49,756 "OPTIONS /v1/users/me/ HTTP/1.1" 200 0
+INFO 2026-06-18 19:15:49,904 GET /v1/users/me/ 200 user=None device=- 0.3ms
+INFO 2026-06-18 19:15:49,906 "GET /v1/users/me/ HTTP/1.1" 200 62
+INFO 2026-06-18 19:15:49,964 POST /v1/auth/wx-login/ 404 user=None device=- 3.4ms
+WARNING 2026-06-18 19:15:49,964 Not Found: /v1/auth/wx-login/
+WARNING 2026-06-18 19:15:49,965 "POST /v1/auth/wx-login/ HTTP/1.1" 404 6634

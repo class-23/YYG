@@ -1,0 +1,42 @@
+.today-card{padding:34rpx}
+.lesson-card,.task-card{margin-top:26rpx;padding:30rpx}
+.lesson-cover{border-radius:20rpx;margin-bottom:24rpx;width:100%}
+.audio-player-card{background:#fff5e9;border-radius:16rpx;padding:24px}
+.audio-player-top{align-items:center;display:grid;gap:14rpx;grid-template-columns:1fr auto}
+.audio-player-card text,.quote-box text{color:#c2641a;font-size:24rpx;font-weight:900}
+.audio-player-top view{font-size:32rpx;font-weight:900}
+.audio-subtitle{color:#7d6d63!important;font-size:22rpx!important;font-weight:600!important;line-height:1.5;margin-top:8rpx}
+.mini-btn{background:#ed8a2f;border-radius:999rpx;color:#fff;font-size:26rpx;min-width:120rpx}
+.audio-progress-track{background:rgba(237,138,47,.16);border-radius:999rpx;height:10rpx;margin-top:20rpx;overflow:hidden}
+.audio-progress-fill{background:linear-gradient(90deg,#ed8a2f,#f0b36e);border-radius:999rpx;height:100%}
+.audio-meta-row{display:flex;justify-content:space-between;margin-top:12rpx}
+.audio-meta-row text{color:#7d6d63!important;font-size:21rpx!important;font-weight:700!important}
+.audio-tip{color:#6e5f55;font-size:23rpx;line-height:1.55;margin-top:14rpx}
+.quote-box{margin-top:24rpx}
+.quote-box view{font-family:Georgia,serif;font-size:46rpx;font-weight:900;line-height:1.2;margin-top:10rpx}
+.meaning{color:#7d6d63!important;display:block;font-size:27rpx!important;font-weight:600!important;margin-top:14rpx}
+.copy{color:#4f4138;font-size:29rpx;line-height:1.7;margin-top:24rpx}
+.lesson-section + .lesson-section{margin-top:26rpx}
+.lesson-section-title{color:#c2641a;font-size:26rpx;font-weight:900}
+.lesson-bullet,.lesson-example{background:#fffaf6;border-radius:14rpx;color:#5f5148;font-size:24rpx;line-height:1.65;margin-top:14rpx;padding:18rpx}
+.lesson-example text{color:#1a211d;font-size:24rpx;font-weight:900}
+.lesson-example view{margin-top:10rpx}
+.reflection{background:#fffaf6;border-radius:16rpx;color:#1a211d;font-size:28rpx;margin-top:24rpx;min-height:180rpx;padding:22rpx;width:100%}
+.encouragement{color:#c2641a;font-size:28rpx;font-weight:900;margin:22rpx 0}
+.policy-task-list{display:grid;gap:14rpx;margin-top:20rpx}
+.policy-task-item{background:#fffaf6;border-radius:14rpx;padding:18rpx}
+.policy-task-item text{color:#c2641a;font-size:24rpx;font-weight:900}
+.policy-task-item view{color:#5f5148;font-size:24rpx;line-height:1.55;margin-top:10rpx}
+.mini-action{background:#ed8a2f;border-radius:999rpx;color:#fff;font-size:24rpx;margin-top:16rpx}
+.poster-mask{align-items:center;background:rgba(26,33,29,.52);bottom:0;display:flex;justify-content:center;left:0;padding:42rpx;position:fixed;right:0;top:0;z-index:80}
+.checkin-poster{background:linear-gradient(180deg,#fffaf6,#fff);border-radius:24rpx;box-shadow:0 24rpx 70rpx rgba(26,33,29,.22);padding:34rpx;position:relative;width:100%}
+.poster-close{align-items:center;background:#fff;border:2rpx solid #f0d6bd;border-radius:50%;color:#9c5a26;display:flex;font-size:34rpx;font-weight:900;height:58rpx;justify-content:center;line-height:1;min-height:58rpx;padding:0;position:absolute;right:24rpx;top:24rpx;width:58rpx}
+.poster-eyebrow{color:#c2641a;font-size:24rpx;font-weight:900;text-transform:uppercase}
+.poster-title{color:#1a211d;font-size:36rpx;font-weight:900;line-height:1.25;margin-top:18rpx;padding-right:70rpx}
+.poster-focus{background:#fff;border:2rpx solid #f4d7bd;border-radius:18rpx;margin-top:28rpx;padding:24rpx}
+.poster-focus text{color:#c2641a;font-size:22rpx;font-weight:900}
+.poster-focus view{color:#1a211d;font-size:34rpx;font-weight:900;line-height:1.35;margin-top:8rpx}
+.poster-insight{color:#6b5a4f;font-size:27rpx;line-height:1.65;margin-top:22rpx}
+.poster-quote{background:#fff2e4;border-radius:18rpx;color:#1a211d;font-family:Georgia,serif;font-size:34rpx;font-weight:900;line-height:1.38;margin-top:24rpx;padding:26rpx}
+.poster-actions{display:grid;gap:16rpx;grid-template-columns:1fr 1fr;margin-top:28rpx}
+.poster-actions .btn{font-size:27rpx;min-height:86rpx}

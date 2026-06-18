@@ -1,0 +1,1 @@
+.intro{margin-top:18rpx}.product-list{display:grid;gap:24rpx;margin-top:34rpx}.product{display:grid;gap:18rpx;padding:32rpx}.product view{font-size:36rpx;font-weight:900;line-height:1.25}.product text:last-of-type{color:#7d6d63;font-size:28rpx;line-height:1.6}

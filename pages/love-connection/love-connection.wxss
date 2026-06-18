@@ -1,0 +1,1 @@
+.love-entry,.love-hero{padding:34rpx}.love-hero .muted{margin-top:20rpx}.love-entry{margin-top:28rpx}.entry-list{display:grid;gap:14rpx;margin:26rpx 0}.entry-list text{background:#fff9f3;border-radius:16rpx;color:#7a6a5f;font-size:27rpx;font-weight:800;padding:18rpx 20rpx}

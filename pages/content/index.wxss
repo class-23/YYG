@@ -1,0 +1,1 @@
+.intro{margin-top:18rpx}.pain-card{display:grid;gap:16rpx;margin-top:34rpx;padding:32rpx}.column-list{display:grid;gap:20rpx;margin-top:28rpx}.column{padding:28rpx}.column view{font-size:34rpx;font-weight:900;margin:18rpx 0 10rpx}.column text:last-child{color:#7d6d63;font-size:27rpx;line-height:1.55}
