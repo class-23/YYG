@@ -18,7 +18,7 @@ const CURRENT_ENV = ENV.DEV;
 const ENV_CONFIG = {
   [ENV.DEV]: {
     // 本机后端（微信开发者工具中通过 localhost 访问）
-    baseURL: 'http://localhost:8765/v1',
+    baseURL: 'http://localhost:8000/v1',
     enableLog: true,
     enableMock: true,
     timeout: 30000,
